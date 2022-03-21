@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Quote Generator</title>
+   <link rel="icon" type="image/png" href="images\Comment.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+   <!-- got this stylesheet from Font awesome cdn  -->
+   <link rel="stylesheet" href="style.css" class="css">
+</head>
+
+<body>
+   <div class="quote-container" id="quote-container">
+      <!-- Quote -->
+      <div class="quote-text">  
+         <i class="fas fa-quote-left"></i> <!-- for quote symobl on left side -->
+         <span class="quote" id="quote"></span>
+         <i class="fas fa-quote-right"></i> <!-- for quote symobl on right side -->
+      </div>
+      <!-- Author -->
+      <div class="quote-author">
+         <span class="author" id="author"></span>
+      </div>
+      <!-- Buttons -->
+      <div class="button-container">
+         <button type="button" class="twitter-button" id="twitter" title="Tweet This!!!!">
+      <!--for twitter symbol - this visits the font awesome site and selects twittersymbol, we used font awesome in style sheet above -->
+            <i class="fab fa-twitter"></i> 
+         </button>
+         <button id="new-quote">New Quote</button>
+      </div>
+   </div>
+   <!-- loader  -->
+   <div class="loader" id = "loader"></div>
+   <script src="script.js"></script>
+</body>
+</html>
